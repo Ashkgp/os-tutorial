@@ -3,15 +3,6 @@ os-tutorial
 
 How to create an OS from scratch!
 
-I have always wanted to learn how to make an OS from scratch. In college I was taught
-how to implement advanced features (pagination, semaphores, memory management, etc)
-but:
-
-- I never got to start from my own boot sector
-- College is hard so I don't remember most of it.
-- I'm fed up with people who think that reading an already existing kernel, even if small, is 
-a good idea to learn operating systems.
-
 Inspired by [this document](http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
 and the [OSDev wiki](http://wiki.osdev.org/), I'll try to make short step-by-step READMEs and
 code samples for anybody to follow. Honestly, this tutorial is basically the first document but
@@ -27,8 +18,6 @@ Features
 - This course is a code tutorial aimed at people who are comfortable with low level computing. For example,
 programmers who have curiosity on how an OS works but don't have the time or willpower to start reading the Linux kernel
 top to bottom.
-- There is little theory. Yes, this is a feature. Google is your theory lecturer. Once you pass college, 
-excessive theory is worse than no theory because it makes things seem more difficult than they really are.
 - The lessons are tiny and may take 5-15 minutes to complete. Trust me and trust yourself. You can do it!
 
 
@@ -61,12 +50,12 @@ Strategy
 
 We will want to do many things with our OS:
 
-- Boot from scratch, without GRUB - DONE!
-- Enter 32-bit mode - DONE
-- Jump from Assembly to C - DONE!
-- Interrupt handling - DONE!
-- Screen output and keyboard input - DONE!
-- A tiny, basic `libc` which grows to suit our needs - DONE!
+- Boot from scratch, without GRUB
+- Enter 32-bit mode 
+- Jump from Assembly to C 
+- Interrupt handling 
+- Screen output and keyboard input 
+- A tiny, basic `libc` which grows to suit our needs 
 - Memory management
 - Write a filesystem to store files
 - Create a very simple shell
@@ -81,11 +70,3 @@ If we feel brave enough:
 - A BASIC interpreter, like in the 70s!
 - A GUI
 - Networking
-
-
-
-Contributing
-------------
-
-I'm still learning this. For the moment, please restrict your contributions to fixing possible bugs
-or improving existing documents. I'm not yet ready to accept enhancements.
